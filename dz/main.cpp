@@ -1,4 +1,4 @@
-#include <iostream>
+п»ї#include <iostream>
 #pragma warning(disable:4326)
 using namespace std;
 
@@ -18,7 +18,7 @@ void main()
 
 	char zvezda = 42;
 	int razmer;
-	cout << "Введите размер квадрата: "; cin >> razmer;
+	cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ РєРІР°РґСЂР°С‚Р°: "; cin >> razmer;
 	for (int i = 1; i <= razmer; i++)
 	{
 		for (int j = 1; j <= razmer; j++)
@@ -32,7 +32,7 @@ void main()
 #ifdef triangle_1
 
 	char zvezda = 42;
-	int razmer; cout << "Введите размер треугольника: "; cin >> razmer;
+	int razmer; cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°: "; cin >> razmer;
 	int otstup = 1;
 
 	for (int i = 1; i <= razmer; i++)
@@ -49,7 +49,7 @@ void main()
 #ifdef triangle_2
 
 	char zvezda = 42;
-	int razmer; cout << "Введите размер треугольника: "; cin >> razmer;
+	int razmer; cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°: "; cin >> razmer;
 	int otstup = razmer;
 
 	for (int i = 1; i <= razmer; i++)
@@ -66,7 +66,7 @@ void main()
 #ifdef triangle_3
 
 	char zvezda = 42;
-	int razmer; cout << "Введите размер треугольника: "; cin >> razmer;
+	int razmer; cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°: "; cin >> razmer;
 
 	for (int i = 1; i <= razmer; i++)
 	{
@@ -84,7 +84,7 @@ void main()
 
 #ifdef triangle_4
 	char zvezda = 42;
-	int razmer; cout << "Введите размер треугольника: "; cin >> razmer;
+	int razmer; cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°: "; cin >> razmer;
 
 	for (int i = 1; i <= razmer; i++)
 	{
@@ -105,15 +105,15 @@ void main()
 
 #ifdef kvadrat_plus_minus
 
-	int razmer; cout << "Введите размер квадрата: "; cin >> razmer;
-	int n = -1; //чтобы квадрат начинался с плюса, ибо по системе счисления ASCII - 43 = '+', 45 = '-'
+	int razmer; cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ РєРІР°РґСЂР°С‚Р°: "; cin >> razmer;
+	int n = -1; //С‡С‚РѕР±С‹ РєРІР°РґСЂР°С‚ РЅР°С‡РёРЅР°Р»СЃСЏ СЃ РїР»СЋСЃР°, РёР±Рѕ РїРѕ СЃРёСЃС‚РµРјРµ СЃС‡РёСЃР»РµРЅРёСЏ ASCII - 43 = '+', 45 = '-'
 
 	for (int i = 0; i < razmer; i++)
 	{
 		for (int j = 0; j < razmer; j++)
 		{
 			cout << (char)(44 + n) << " ";
-			n = -n; // чтобы было чередование плюс/минус
+			n = -n; // С‡С‚РѕР±С‹ Р±С‹Р»Рѕ С‡РµСЂРµРґРѕРІР°РЅРёРµ РїР»СЋСЃ/РјРёРЅСѓСЃ
 		}
 		cout << '\n';
 	}
