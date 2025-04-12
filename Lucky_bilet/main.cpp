@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 using namespace std;
 
@@ -7,7 +7,7 @@ void main()
 {
 	setlocale(LC_ALL, "");
 
-	int bilet; cout << "íîìåð áèëåòà: "; cin >> bilet;
+	int bilet; cout << "Ð½Ð¾Ð¼ÐµÑ€ Ð±Ð¸Ð»ÐµÑ‚Ð°: "; cin >> bilet;
 
 	int razryad_1 = bilet % 10;
 	int razryad_2 = (bilet / 10) % 10;
@@ -18,10 +18,10 @@ void main()
 
 	if (razryad_1 + razryad_2 + razryad_3 == razryad_4 + razryad_5 + razryad_6)
 	{
-		cout << "Áèëåò - ñ÷àñòëèâûé!" << endl;
+		cout << "Ð‘Ð¸Ð»ÐµÑ‚ - ÑÑ‡Ð°ÑÑ‚Ð»Ð¸Ð²Ñ‹Ð¹!" << endl;
 	}
 	else
 	{
-		cout << "Áèëåò - îáû÷íûé, âû ëîõ" << endl;
+		cout << "Ð‘Ð¸Ð»ÐµÑ‚ - Ð¾Ð±Ñ‹Ñ‡Ð½Ñ‹Ð¹, Ð²Ñ‹ Ð»Ð¾Ñ…" << endl;
 	}
 }
