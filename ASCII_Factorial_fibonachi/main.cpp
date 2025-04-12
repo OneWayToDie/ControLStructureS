@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 //#define FACTORIAL_for
@@ -18,7 +18,7 @@ void main()
 #if defined FACTORIAL_for
 
 	int a = 1;
-	int b; cout << "Ââåäèòå ÷èñëî, ôàêòîðèàë êîòîðîãî õîòèòå óçíàòü: "; cin >> b;
+	int b; cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾, Ñ„Ð°ÐºÑ‚Ð¾Ñ€Ð¸Ð°Ð» ÐºÐ¾Ñ‚Ð¾Ñ€Ð¾Ð³Ð¾ Ñ…Ð¾Ñ‚Ð¸Ñ‚Ðµ ÑƒÐ·Ð½Ð°Ñ‚ÑŒ: "; cin >> b;
 
 	for (int i = 1; i <= b; i++)
 	{
@@ -30,7 +30,7 @@ void main()
 #if defined FACTORIAL_WHILE
 
 	int a = 1;
-	int b; cout << "Ââåäèòå ÷èñëî, ôàêòîðèàë êîòîðîãî õîòèòå óçíàòü: "; cin >> b;
+	int b; cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾, Ñ„Ð°ÐºÑ‚Ð¾Ñ€Ð¸Ð°Ð» ÐºÐ¾Ñ‚Ð¾Ñ€Ð¾Ð³Ð¾ Ñ…Ð¾Ñ‚Ð¸Ñ‚Ðµ ÑƒÐ·Ð½Ð°Ñ‚ÑŒ: "; cin >> b;
 	int i = 1;
 	while (i <= b)
 	{
@@ -43,8 +43,8 @@ void main()
 
 #if defined stepashka_for
 
-	int a; cout << "Ââåäèòå ÷èñëî: "; cin >> a;
-	int b; cout << "Ââåäèòå ñòåïåíü, â êîòîðóþ õîòèòå âîçâåñòè ÷èñëî: "; cin >> b;
+	int a; cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> a;
+	int b; cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑ‚ÐµÐ¿ÐµÐ½ÑŒ, Ð² ÐºÐ¾Ñ‚Ð¾Ñ€ÑƒÑŽ Ñ…Ð¾Ñ‚Ð¸Ñ‚Ðµ Ð²Ð¾Ð·Ð²ÐµÑÑ‚Ð¸ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> b;
 	int c = a;
 	for (int i = 1; i < b; i++)
 	{
@@ -56,8 +56,8 @@ void main()
 
 #if defined stepashka_while
 
-	int a; cout << "Ââåäèòå ÷èñëî: "; cin >> a;
-	int b; cout << "Ââåäèòå ñòåïåíü, â êîòîðóþ õîòèòå âîçâåñòè ÷èñëî: "; cin >> b;
+	int a; cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> a;
+	int b; cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑ‚ÐµÐ¿ÐµÐ½ÑŒ, Ð² ÐºÐ¾Ñ‚Ð¾Ñ€ÑƒÑŽ Ñ…Ð¾Ñ‚Ð¸Ñ‚Ðµ Ð²Ð¾Ð·Ð²ÐµÑÑ‚Ð¸ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> b;
 	int c = a;
 	int i = 1;
 	while (i < b)
@@ -81,7 +81,7 @@ void main()
 	int old = 0;
 	int simple = 1;
 	int novoe = 1;
-	int predel; cout << "Ïðåäåë: "; cin >> predel;
+	int predel; cout << "ÐŸÑ€ÐµÐ´ÐµÐ»: "; cin >> predel;
 
 	if (predel >= 1)
 	{
@@ -106,7 +106,7 @@ void main()
 	int old = 0;
 	int simple = 1;
 	int novoe = 1;
-	int kolichestvo; cout << "Ââåäèòå êîëè÷åñòâî ÷èñåë èç ðÿäà Ôèáîíà÷÷è: "; cin >> kolichestvo;
+	int kolichestvo; cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ñ‡Ð¸ÑÐµÐ» Ð¸Ð· Ñ€ÑÐ´Ð° Ð¤Ð¸Ð±Ð¾Ð½Ð°Ñ‡Ñ‡Ð¸: "; cin >> kolichestvo;
 
 	if (kolichestvo >= 1)
 	{
